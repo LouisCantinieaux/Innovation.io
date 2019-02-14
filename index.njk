@@ -4,14 +4,54 @@
 
 {% block content %}
 <p>
-  <i class="fas fa-arrow-right"></i> Insert content here. <i class="fas fa-arrow-left"></i>
-</p>
+  <i class="fas fa-arrow-right"></i>
 
 <header>
-  
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarColor02">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.njk">Home<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Team.html">Team</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Contact.html">Contact</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="text" placeholder="Search">
+      <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+  </nav>
 </header>
 
 <body>
-
+  <blockquote class="blockquote text-right">
+  <img src="./images/thib.jpeg" width="124" height="150" id="img-quote">
+  <p class="mb-0">He is such talented, it's a real pleasure to work together.
+  I know with him in my team, it won't take long to take over the world</p>
+  <footer class="blockquote-footer">The Client <cite title="Source Title">In the BeCode room</cite></footer>
+  </blockquote>
+  <div class="clear"></div>
 </body>
+
+<footer>
+  <div id="footer-box">
+    <div class="left-text">
+      <a href="header">Up</a>
+    </div>
+    <div class="right-text">
+      <p>Made By Louis</p>
+    </div>
+  </div>
+</footer>
+<i class="fas fa-arrow-left"></i>
+</p>
 {% endblock %}

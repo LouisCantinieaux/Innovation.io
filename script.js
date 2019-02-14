@@ -5,8 +5,21 @@ import "babel-polyfill"
 // import bootstrap's javascript part
 import 'bootstrap';
 
+import 'carousel';
+
 /*
   Put the JavaScript code you want below.
 */
 
-console.log("Hey look in your browser console. It works!");
+// Activate Carousel
+$("#myCarousel").carousel('cycle');
+
+// Enable Carousel Indicators
+$(".item").click(function(){
+  $("#myCarousel").carousel(1);
+});
+
+// Enable Carousel Controls
+$(".left").click(function(){
+  $("#myCarousel").carousel("prev");
+});

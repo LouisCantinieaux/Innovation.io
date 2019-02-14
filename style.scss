@@ -8,14 +8,26 @@
   If you need some CSS for any reason you can put it here.
 */
 
+#quote {
+  background-color: rgb(40, 46, 196);
+  width: auto;
+  height: 50vh;
+  object-fit: cover;
+}
+
 .blockquote {
-  float: right;
+  //float: right;
   width: 60%;
   margin-top: 3%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #img-quote {
-  float: left;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  border-radius: 30vh;
 }
 
 .clear {

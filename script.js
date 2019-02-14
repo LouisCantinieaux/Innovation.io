@@ -12,7 +12,9 @@ import 'carousel';
 */
 
 // Activate Carousel
-$("#myCarousel").carousel('cycle');
+$("#myCarousel").carousel({
+
+});
 
 // Enable Carousel Indicators
 $(".item").click(function(){

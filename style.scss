@@ -8,29 +8,69 @@
   If you need some CSS for any reason you can put it here.
 */
 
+body {
+  margin: 0 0 0 0;
+  //position: absolute;
+  top: 0; left: 0;
+  width: 100%
+}
+
 #quote {
   background-color: rgb(40, 46, 196);
   width: auto;
-  height: 50vh;
+  height: auto;
   object-fit: cover;
+  color: #FFFFFF;
+  padding: 0.5rem;
+
+  .blockquote {
+    //float: right;
+    width: 60%;
+    margin-top: 3%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #img-quote {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    border-radius: 30vh;
+  }
 }
 
-.blockquote {
-  //float: right;
-  width: 60%;
-  margin-top: 3%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-#img-quote {
-  margin-left: auto;
-  margin-right: auto;
-  display: flex;
-  border-radius: 30vh;
+#carouselExampleIndicators{
+  .carousel-item {
+    .carousel-caption d-none d-md-block {
+      h5 {
+        color: #B6C300;
+      }
+      p {
+        color: #B6C300;
+      }
+    }
+  }
 }
 
 .clear {
   clear: both;
   display: block;
+}
+
+.carousel-item {
+  .d-block w-100{
+  width: 1920px;
+  height: 1048px;
+  }
+}
+
+#foot {
+  text-align: center;
+  #footer-box {
+    width: auto;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+  }
 }

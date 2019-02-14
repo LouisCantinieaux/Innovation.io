@@ -1,0 +1,13 @@
+# Starting a new project frome the Becode template
+sudo npm install -g download-git-repo-cli
+download-git-repo github:becodeorg/becode-js-web-template <your project name>
+cd <your project name>
+git init
+git add .
+git commit -m "Initial commit"
+npm install
+
+// Installer axios pour la 2eme série d'exo JS-web
+npm install --save axios
+// Puis dans le script.js écrire ce qui suit
+import axios from 'axios';

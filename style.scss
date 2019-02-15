@@ -16,7 +16,7 @@ body {
 }
 
 .navbar navbar-expand-lg navbar-dark bg-dark {
-  position: fixed;
+  position: sticky;
 }
 
 .titre {
@@ -26,42 +26,44 @@ body {
 #quote {
   background-color: rgb(40, 46, 196);
   width: auto;
-  height: auto;
+  height: 50vh;
   object-fit: cover;
   color: #FFFFFF;
   padding: 0.5rem;
+  border-radius: 0 2rem 0 2rem;
+  margin-top: 1rem;
 
   .blockquote {
     width: 60%;
     margin-top: 3%;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
   }
 
   #img-quote {
     margin-left: auto;
     margin-right: auto;
+    padding-bottom: 1rem;
     display: flex;
-    border-radius: 30vh;
+
   }
 }
 
-#carouselExampleIndicators{
-  .carousel-item {
-    .carousel-caption d-none d-md-block {
-      h5 {
-        color: #B6C300;
-      }
-      p {
-        color: #B6C300;
-      }
-    }
-  }
-}
+#carouselExampleIndicators {
+  margin-top: 1rem;
 
-.clear {
-  clear: both;
-  display: block;
+  .carousel-caption {
+    color: #070704;
+  }
+
+  #clown-caption {
+    color: #D8BC05;
+  }
+
+  #bridge-caption {
+    color: #FFFFFF;
+  }
 }
 
 .carousel-item {
@@ -69,6 +71,12 @@ body {
   width: 1920px;
   height: 1048px;
   }
+}
+
+#bar-progress {
+  /*display: flex;
+  flex-direction: column;*/
+  margin: 1rem;
 }
 
 #foot {
@@ -104,7 +112,7 @@ form {
   text-align: center;
   border: 2px solid rgb(72,209,204);
   border-radius: 2rem;
-  padding: 2%;
+  padding: 5px;
 }
 
 img.pdp {

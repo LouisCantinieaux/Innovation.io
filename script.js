@@ -11,6 +11,8 @@ import 'carousel';
   Put the JavaScript code you want below.
 */
 
+document.getElementById("staticEmail").innerHTML = document.getElementById("exampleInputEmail1").value
+
 // Activate Carousel
 $("#myCarousel").carousel({
 

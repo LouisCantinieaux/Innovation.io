@@ -10,9 +10,17 @@
 
 body {
   margin: 0 0 0 0;
-  //position: absolute;
+  position: absolute;
   top: 0; left: 0;
-  width: 100%
+  width: 100%;
+}
+
+.navbar navbar-expand-lg navbar-dark bg-dark {
+  position: fixed;
+}
+
+.titre {
+  color: rgb(127,255,212);
 }
 
 #quote {
@@ -24,7 +32,6 @@ body {
   padding: 0.5rem;
 
   .blockquote {
-    //float: right;
     width: 60%;
     margin-top: 3%;
     margin-left: auto;
@@ -73,4 +80,34 @@ body {
     align-items: center;
     padding: 5px;
   }
+}
+// CSS pour la page Contact
+
+form {
+  padding: 2rem;;
+}
+
+// CSS pour la page Team
+
+#dream-team {
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+}
+
+.card-mb-3 {
+  display: block;
+  margin: 2%;
+  width: 45%;
+  height: 33.3%;
+  color: #FFFFFF;
+  text-align: center;
+  border: 2px solid rgb(72,209,204);
+  border-radius: 2rem;
+  padding: 2%;
+}
+
+img.pdp {
+  margin-left: auto;
+  margin-right: auto;
 }
